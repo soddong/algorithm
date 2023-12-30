@@ -53,7 +53,7 @@ def solution(bandage, health, attacks):
             return answer
         
         # 공격 x면 붕대 감기 -> 체력 업데이트
-        if is_attack == True:
+        if is_attack:
             bandage_cnt = 0
         if not is_attack:
             bandage_cnt += 1
