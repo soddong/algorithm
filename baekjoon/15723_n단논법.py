@@ -1,5 +1,5 @@
 from collections import defaultdict
-
+#  O(n * m * (V + E))
 answer = ''
 n = int(input())
 
