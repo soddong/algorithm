@@ -20,4 +20,4 @@ def dfs(day, coupon):
             dp[day][coupon] = min(dp[day][coupon],
                                   dfs(day + prices[i][0], coupon + prices[i][1]) + prices[i][2])
     return 0
-dfs(1, 0)
+dfs(1, 0)  
