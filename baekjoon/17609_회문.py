@@ -8,7 +8,7 @@ def ispseudo(word, left, right):
     return True
 
 def checkWord(word, left, right):
-    if word == word[::-1]:
+    if word == word[::-1]:  
         return 0
     else:
         while left < right:
